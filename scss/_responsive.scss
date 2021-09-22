@@ -775,6 +775,7 @@
     padding: 67px 0px 7px 0px;
     &-card {
       height: 321px;
+      max-width: 190px;
       &-image {
         max-width: 160px;
       }
@@ -824,6 +825,7 @@
     &-descr {
       margin-bottom: 25px;
       text-align: center;
+      margin-right: 0;
     }
   }
   .footer {

@@ -1,10 +1,6 @@
-// new Swiper('.swiper-wrapper', {
-//   slidesPerView: 2,
-// });
+
 
 const swiper = new Swiper('.swiper', {
-  // speed: 400,
-  // spaceBetween: 100,
   slidesPerView: 4.2,
   centeredSlides: true,
   loop: true,
@@ -21,6 +17,11 @@ const swiper = new Swiper('.swiper', {
     // when window width is >= 640px
     1800: {
       slidesPerView: 3.4,
+    },
+    1850: {
+      slidesPerView: 4.2,
+      centeredSlides: true,
+      loop: true,
     }
   }
 });
