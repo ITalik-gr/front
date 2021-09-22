@@ -1,0 +1,1015 @@
+// @include media(1152) {
+
+// }
+
+// @include media(1024) {
+
+// }
+
+// @include media(960) {
+
+// }
+
+// @include media(768) {
+
+// }
+
+// @include media(640) {
+
+// }
+
+// @include media(480) {
+
+// }
+
+// @include media(420) {
+
+// }
+
+// @include media(320) {
+
+// }
+
+@media (max-width: 1800px) {
+  .list {
+    &-item {
+      margin-right: 50px;
+      a {
+        font-size: 19px;
+      }
+    }
+  }
+  .header {
+    &-logo {
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+  .first-section {
+    &-wrap {
+      padding: 0px 80px 80px 80px;
+      justify-content: space-between;
+    }
+    &-title {
+      font-size: 66px;
+      margin-right: 40px;
+      line-height: 80px;
+    }
+    &-image {
+      display: flex;
+      justify-content: flex-end;
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+  .purpose {
+    &-title {
+      font-size: 80px;
+    }
+    &-descr {
+      font-size: 28px;
+      line-height: 43px;
+    }
+    &-elem {
+      &-2 {
+        left: 30px;
+        bottom: 213px;
+      }
+      &-3 {
+        right: 40px;
+        bottom: -100px;
+      }
+    }
+  }
+  .sectors {
+    &-container {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    &-title {
+      font-size: 80px;
+      img {
+        max-width: 90px;
+        height: auto;
+      }
+    }
+    &-card {
+      &-title {
+        font-size: 36px;
+        line-height: 40px;
+      }
+    }
+    &-elem {
+      &-3 {
+        left: 60px;
+        bottom: -180px;
+      }
+    }
+  }
+  .impact {
+    &-image {
+    img {
+      max-width: 70%;
+    }
+    &_1 {
+      top: 23px;
+      left: 320px;
+      img {
+        max-width: 40%;
+      }
+    }
+    }
+    &-title {
+      font-size: 80px;
+      max-width: 200px;
+      margin-bottom: 32px;
+    }
+    &-subtitle {
+      font-size: 27px;
+      line-height: 40px;
+      margin-bottom: 26px;
+    }
+    &-descr {
+      font-size: 18px;
+      line-height: 36px;
+    }
+  }
+  .case {
+    &-elem {
+      &-1 {
+        top: 50px;
+        right: 17px;
+      }
+    }
+    &-title {
+      font-size: 80px;
+      img {
+        max-width: 145px;
+      }
+    }
+    &-card {
+      &-images {
+        width: 340px;
+        height: 430px;
+      }
+      &-title {
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 39px;
+      }
+    }
+  }
+  .chat {
+    height: 950px;
+    &-image {
+      left: 40px;
+      top: -38px;
+      img {
+        max-width: 84%;
+      }
+    }
+    &-title {
+      font-size: 80px;
+      line-height: 80px;
+      margin-bottom: 25px;
+    }
+    &-descr {
+      font-size: 27px;
+      line-height: 40px;
+      margin-bottom: 45px;
+      margin-right: 48px;
+    }
+  }
+  .footer {
+    &-container {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
+
+@media (max-width: 1400px) { //1200
+  .header {
+    padding: 40px 30px;
+    &-logo {
+      width: 302px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  .first-section {
+    height: 665px;
+    &-elem {
+      z-index: -1;
+      left: 60px;
+      bottom: 32px;
+    }
+    &-image {
+      position: absolute;
+      right: -50px;
+      top: 0px;
+      z-index: -1;
+    }
+    &-wrap {
+      padding: 120px 30px 80px 30px;
+    }
+  }
+  .purpose {
+    &-elem {
+      &-2 {
+        left: 20px;
+        bottom: 123px;
+      }
+      &-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: -40px;
+        bottom: -90px;
+        img {
+          max-width: 80%;
+        }
+      }
+      &-title {
+        font-size: 70px;
+        margin-bottom: 20px;
+      }
+      &-descr {
+        font-size: 27px;
+        line-height: 40px;
+      }
+    }
+  }
+  .sectors {
+    padding: 67px 0px 157px 0px;
+    &-elem {
+      &-1 {
+        top: 52px;
+        right: 90px;
+      }
+      &-2 {
+        right: -40px;
+        bottom: 40px;
+        img {
+          max-width: 80%;
+        }
+      }
+      &-3 {
+        max-width: 80%;
+        left: 30px;
+        bottom: -150px;
+      }
+    }
+    &-card {
+      height: 471px;
+      &-title {
+        font-size: 33px;
+        line-height: 36px;
+      }
+      &-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          max-width: 90%;
+        }
+      }
+    }
+  }
+  .impact {
+    &-image {
+      &_1 {
+        top: 23px;
+        left: 250px;
+        img {
+          max-width: 35%;
+        }
+      }
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+  .case {
+    &-card {
+      max-width: 310px;
+      &-2 {
+        margin-top: -60px;
+      }
+      &-3 {
+        margin-top: -20px;
+      }
+      &-image {
+        width: 310px;
+        height: 380px;
+      }
+    }
+  }
+  .chat {
+    padding-left: 40%;
+    height: 800px;
+    &-elem {
+      &-1 {
+        right: 50px;
+        top: -65px;
+        img {
+          max-width: 80%;
+        }
+      }
+      &-2 {
+        right: 210px;
+        bottom: 37px;
+        img {
+          max-width: 85%;
+        }
+      }
+    }
+    &-title {
+      font-size: 70px;
+      line-height: 70px;
+      margin-bottom: 5px;
+    }
+    &-quote {
+      font-size: 39px;
+      line-height: 26px;
+    }
+    &-descr {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    &-image {
+      left: 0px;
+      top: -28px;
+      img {
+        max-width: 70%;
+      }
+    }
+  }
+  .ml8 {
+    margin-left: -60px;
+  }
+  .footer {
+    height: 395px;
+    &-list {
+      margin-left: 93px;
+    }
+    &-logo {
+      width: 200px;
+      img {
+        max-width: 100%;
+      }
+    }
+    &-social {
+      &-item {
+        margin-right: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) { //992
+  .header {
+    padding: 10px 30px;
+    &-logo {
+      width: 262px;
+    }
+  }
+  .list {
+    &-item {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  .first-section {
+    height: 505px;
+    &-elem {
+      max-width: 150px;
+      left: 50px;
+    }
+    &-title {
+      font-size: 62px;
+      margin-right: 29px;
+      line-height: 71px;
+      br {
+        display: none;
+      }
+    }
+    &-scroll {
+      left: 50%;
+      bottom: 20px;
+    }
+    &-image {
+      top: 20px;
+      img {
+        max-width: 55%;
+      }
+    }
+  }
+  .purpose {
+    height: 650px;
+    &-text {
+      &__image {
+        margin-bottom: 0px;
+      }
+    }
+    &-title {
+      font-size: 70px;
+      margin-bottom: 10px;
+    }
+    &-descr {
+      font-size: 23px;
+      line-height: 39px;
+      p {
+        max-width: 554px;
+      }
+    }
+  }
+  .sectors {
+    &-elem {
+      &-1 {
+        top: 32px;
+        right: -30px;
+        max-width: 200px;
+      }
+      &-2 {
+        max-width: 200px;
+        right: -20px;
+        bottom: 110px;
+        img {
+          max-width: 100%;
+        }
+      }
+      &-3 {
+        max-width: 42%;
+        left: -170px;
+        bottom: 110px;
+      }
+    }
+    &-wrap {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &-card {
+      margin-bottom: 40px;
+      height: 421px;
+    }
+    &-title {
+      font-size: 60px;
+      img {
+        max-width: 60px;
+      }
+    }
+  }
+  .btn {
+    font-size: 20px;
+    line-height: 30px;
+    width: 230px;
+    height: 60px;
+  }
+  .impact {
+    padding: 125px 0px 153px 0px;
+    &-title {
+      font-size: 65px;
+      line-height: 70px;
+    }
+    &-subtitle {
+      font-size: 22px;
+      line-height: 34px;
+      margin-bottom: 20px;
+    }
+    &-descr {
+      font-size: 17px;
+      line-height: 31px;
+    }
+    &-elem {
+      &-1 {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &-2 {
+        right: 225px;
+        bottom: -175px;
+        max-width: 350px;
+      }
+    }
+    &-image {
+      display: none;
+    }
+    &-text {
+      margin-left: 100px;
+    }
+  }
+  .case {
+    &-title {
+      font-size: 60px;
+      img {
+        max-width: 115px;
+        margin-right: 10px;
+      }
+    }
+    &-card {
+      &-2 {
+        margin-top: -40px;
+      }
+      &-5 {
+        margin-top: -15px;
+      }
+      &-title {
+        font-size: 31px;
+        line-height: 35px;
+      }
+    }
+    &-elem {
+      &-1 {
+        top: 50px;
+        right: -33px;
+        max-width: 200px;
+      }
+      &-2 {
+        max-width: 240px;
+        left: 110px;
+        bottom: -60px;
+      }
+    }
+  }
+  .chat {
+    padding-left: 34%;
+    height: 680px;
+    &-elem {
+      &-2 {
+        right: 20px;
+        bottom: -3px;
+      }
+    }
+    &-image {
+      left: -85px;
+      img {
+        max-width: 60%;
+      }
+    }
+    &-descr {
+      margin-bottom: 15px;
+      margin-right: 18px;
+      font-size: 22px;
+      p {
+        max-width: 315px;
+      }
+    }
+    &-title {
+      font-size: 57px;
+      line-height: 53px;
+    }
+  }
+  .footer {
+    height: 335px;
+    &-logo {
+      width: 140px;
+    }
+    &-social {
+      &-item {
+        margin-right: 30px;
+        img {
+          max-width: 20px;
+        }
+      }
+    }
+    &-copy {
+      margin-left: 73px;
+      font-size: 16px;
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) { //768 
+  .list {
+    &-item {
+      margin-right: 20px;
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+  .header {
+    &-logo {
+      width: 162px;
+    }
+  }
+  .first-section {
+    height: 465px;
+    &-elem {
+      right: -10px;
+      bottom: 92px;
+      left: auto;
+    }
+    &-title {
+      font-size: 53px;
+      margin-right: 0px;
+      max-width: 594px;
+      line-height: 65px;
+    }
+    &-wrap {
+      padding: 80px 30px 80px 30px;
+    }
+    &-image {
+      display: none;
+    }
+  }
+  .purpose {
+    &-elem {
+      &-1 {
+
+      }
+      &-2 {
+        left: -30px;
+        bottom: 123px;
+        max-width: 150px;
+      }
+      &-3 {
+        right: -40px;
+        bottom: -40px;
+        max-width: 330px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+    &-title {
+      font-size: 57px;
+      margin-bottom: 0px;
+    }
+    &-descr {
+      font-size: 21px;
+      line-height: 36px;
+    }
+  }
+  .sectors {
+    &-title {
+      font-size: 48px;
+      img {
+        max-width: 50px;
+      }
+    }
+    &-card {
+      margin-bottom: 70px;
+      height: 381px;
+      &-title {
+        font-size: 31px;
+      }
+      &-image {
+        max-width: 200px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .case {
+    &-elem {
+      &-1 {
+        top: 30px;
+        right: -43px;
+        max-width: 160px;
+      }
+    }
+    &-title {
+      z-index: 2;
+      font-size: 40px;
+      margin-bottom: 95px;
+      img {
+        max-width: 80px;
+      }
+    }
+    &-card {
+      max-width: 270px;
+      &-image {
+        width: 275px;
+        height: 330px;
+      }
+      &-title {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+  .chat {
+    padding-left: 90px;
+    height: 580px;
+    &-elem {
+      &-1 {
+        right: 30px;
+        top: -65px;
+        max-width: 170px;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+    &-image {
+      display: none;
+    }
+    &-title {
+      font-size: 46px;
+    }
+  }
+  .footer {
+    &-logo {
+      width: 98px;
+    }
+  }
+}
+
+@media (max-width: 768px) { //576 
+  .header {
+    &-list {
+      display: none;
+    }
+    &-toggle {
+      display: flex;
+    }
+  }
+  .purpose {
+    height: 470px;
+    &-elem {
+      &-1 {
+        top: -262px;
+        max-width: 337px;
+      }
+      &-2 {
+        left: -50px;
+        bottom: 113px;
+        max-width: 120px;
+      }
+      &-3 {
+        right: -10px;
+        bottom: 10px;
+        max-width: 200px;
+      }
+    }
+    &-text {
+      &__image {
+        img {
+          max-width: 82px;
+        }
+      }
+    }
+    &-title {
+      font-size: 46px;
+      line-height: 70px;
+    }
+    &-descr {
+      font-size: 19px;
+      p {
+        max-width: 424px;
+      }
+    }
+  }
+  .sectors {
+    padding: 67px 0px 7px 0px;
+    &-card {
+      height: 321px;
+      &-image {
+        max-width: 160px;
+      }
+      &-title {
+        font-size: 23px;
+      }
+    }
+  }
+  .ml8 {
+    margin-left: -35px;
+  }
+  .impact {
+    &-elem {
+      &-1 {
+        max-width: 60px;
+      }
+    }
+    &-title {
+      font-size: 49px;
+      line-height: 56px;
+    }
+    &-text {
+      margin-left: 50px;
+      max-width: 457px;
+    }
+  }
+  .case {
+    padding-bottom: 120px;
+    padding-top: 40px;
+  }
+  .chat {
+    justify-content: center;
+    padding-left: 0;
+    height: 710px;
+    &-text {
+      align-items: center;
+    }
+    &-quote {
+      font-size: 29px;
+      line-height: 86px;
+    }
+    &-block {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &-descr {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+  }
+  .footer {
+    &-list {
+      margin-left: 0px;
+    }
+    &-container {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    &-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &-social {
+      &-item {
+        margin-right: 25px;
+        img {
+          max-width: 17px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px)  { //320
+
+
+  .first-section {
+    height: 375px;
+    &-title {
+      font-size: 28px;
+      margin-right: 0px;
+      max-width: 594px;
+      line-height: 45px;
+    }
+    &-elem {
+      right: -30px;
+      bottom: 12px;
+    }
+  }
+  .purpose {
+    &-elem {
+      &-1 {
+        top: -208px;
+        max-width: 267px;
+      }
+      &-3 {
+        right: -30px;
+        bottom: -30px;
+      }
+    }
+    &-title {
+      font-size: 36px;
+      line-height: 50px;
+    }
+    &-descr {
+      font-size: 16px;
+      p {
+        max-width: 300px;
+      }
+    }
+  }
+  .sectors {
+    &-elem {
+      &-1 {
+        top: 2px;
+        right: -20px;
+        max-width: 150px;
+      }
+    }
+    &-title {
+      font-size: 38px;
+      z-index: 4;
+      img {
+        max-width: 40px;
+      }
+    }
+    &-card {
+      height: 271px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &-image {
+        margin-bottom: 20px;
+        max-width: 140px;
+      }
+      &-title {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .ml8 {
+    margin-left: 0;
+  }
+  .btn {
+    font-size: 17px;
+    width: 190px;
+    height: 45px;
+  }
+  .impact {
+    padding: 55px 0px 53px 0px;
+    &-elem {
+      &-1 {
+        display: none;
+      }
+    }
+    &-text {
+      margin-left: 14px;
+      max-width: 273px;
+    }
+    &-title {
+      font-size: 35px;
+      line-height: 46px;
+    }
+    &-subtitle {
+      font-size: 19px;
+      line-height: 29px;
+    }
+    &-descr {
+      font-size: 16px;
+      line-height: 29px;
+    }
+  }
+  .case {
+    &-title {
+      font-size: 25px;
+      margin-bottom: 65px;
+      img {
+        max-width: 60px;
+      }
+    }
+    &-card {
+      max-width: 320px;
+      &-text {
+        width: 84%;
+      }
+      &-title {
+        font-size: 22px;
+        line-height: 29px;
+      }
+    }
+    &-elem {
+      &-1 {
+        display: none;
+      }
+    }
+  }
+  .chat {
+    &-title {
+      font-size: 38px;
+    }
+    &-descr {
+      font-size: 18px;
+      line-height: 25px;
+      margin-right: 0;
+      p {
+        max-width: 275px;
+      }
+    }
+  }
+  .list {
+    flex-wrap: wrap;
+    &-item {
+      margin-right: 16px;
+      a {
+
+      }
+    }
+  }
+
+  .footer {
+    &-wrap {
+      align-items: center;
+    }
+    &-bottom {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &-copy {
+      margin-left: 0;
+    }
+  }
+}
